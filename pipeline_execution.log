@@ -20,3 +20,14 @@
 2026-09-14 22:01:31,375 [INFO] Tabla de hechos 'fact_ventas' cargada correctamente.
 2026-09-14 22:01:31,459 [INFO] Tabla dimensión 'dim_productos' cargada correctamente.
 2026-09-14 22:01:31,460 [INFO] === PIPELINE EJECUTADO Y AUDITADO CON ÉXITO ===
+2026-09-15 18:32:58,820 [INFO] === INICIANDO PIPELINE ETL EMPRESARIAL ===
+2026-09-15 18:32:58,877 [INFO] Extracción exitosa: 5200 registros leídos de 'datos_ventas_raw.csv'.
+2026-09-15 18:32:58,881 [INFO] Iniciando fase de limpieza y transformación de datos...
+2026-09-15 18:32:58,927 [INFO] Duplicados eliminados: 200 filas.
+2026-09-15 18:32:58,970 [INFO] Precios nulos imputados: 148 registros.
+2026-09-15 18:32:58,974 [INFO] Registros descartados por cantidad inválida (<= 0): 1430.
+2026-09-15 18:32:58,977 [INFO] Transformación completada. Registros limpios finales: 3570.
+2026-09-15 18:32:58,978 [INFO] Conectando al Data Warehouse SQLite 'empresa_dw.db'...
+2026-09-15 18:32:59,100 [INFO] Tabla de hechos 'fact_ventas' cargada correctamente.
+2026-09-15 18:32:59,162 [INFO] Tabla dimensión 'dim_productos' cargada correctamente.
+2026-09-15 18:32:59,165 [INFO] === PIPELINE EJECUTADO Y AUDITADO CON ÉXITO ===
